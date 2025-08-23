@@ -21,7 +21,7 @@ Clone project in your system (I imagine you have installed git). Then run `insta
 ```bash
 git clone https://github.com/mohammadali-arjomand/wg-gui.git
 cd wg-gui
-sudo install.sh
+sudo ./install.sh
 ```
 Now you can run WireGuard GUI by using `run-wg-gui`:
 ```bash
