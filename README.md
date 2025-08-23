@@ -2,7 +2,6 @@
 There is a simple WireGuard GUI to manage wireguard configs in linux as client
 
 ![ScreenShot](screenshot.png)
-> Running WireGuard GUI in XFCE Desktop!
 
 > **Important** WireGuard GUI doesn't work on Windows. If you're a Windows user, [install official WireGuard Client](https://www.wireguard.com/install/)
 
