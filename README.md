@@ -1,9 +1,10 @@
 # WireGuard GUI
-There is a simple WireGuard GUI to manage wireguard configs in linux as client
+A simple GUI for managing WireGuard configs on Linux (client-side)
 
-![ScreenShot](screenshot.png)
+![WireGuard GUI ScreenShot](screenshot.png)
 
-> **Important** WireGuard GUI doesn't work on Windows. If you're a Windows user, [install official WireGuard Client](https://www.wireguard.com/install/)
+> **Important** WireGuard GUI does not work on Windows.
+> Windows users should use the [official WireGuard Client](https://www.wireguard.com/install/)
 
 # Requirements
 Install `wireguard`, `git` and `tkinter`  on your system
@@ -17,28 +18,38 @@ sudo dnf install wireguard-tools git-all python3-tkinter
 # Arch
 sudo pacman -S wireguard-tools git python-tk
 ```
-[To install wireguard on other distros, click here](https://www.wireguard.com/install/)
+
+> Make sure you have Python3 with Tkinter support installed
+
+[More installation instructions for WireGuard on ther distros](https://www.wireguard.com/install/)
 
 # Installation
 Clone project in your system. Then run `install.sh` script as root:
 ```bash
 git clone https://github.com/mohammadali-arjomand/wg-gui.git
-sudo ./wg-gui/install.sh
+cd wg-gui
+sudo ./install.sh
 ```
 
-Now you can run WireGuard GUI using `run-wg-gui`:
+Now you can run WireGuard GUI using:
 ```bash
 run-wg-gui
 ```
 
 # Usage
-Import a config using `Add Config` button and choose it. Then click on `Connect` button and enjoy! (See screenshot above)
+1. Import a config using **Add Config** button.
+2. Select it from the list.
+3. Click **Connect** and enjoy!
+(See screenshot above)
+
+<!-- TODO: Add a GIF of usage -->
 
 # Todo
-- Improving Multiconfig management and connections
+- Improving Multi-config management and connections
 
 # Contribute
-Intrested in my project? [create an issue](http://github.com/mohammadali-arjomand/wg-gui/issues/new/) and share your thoughts!
+Interested in this project? [create an issue](http://github.com/mohammadali-arjomand/wg-gui/issues/new/) and share your thoughts!
 
 # License
-MIT License, Copyright (c) 2025 MohammadAli Arjomand [(more details)](https://github.com/mohammadali-arjomand/wg-gui/blob/main/LICENSE)
+Licensed under [MIT License](https://github.com/mohammadali-arjomand/wg-gui/blob/main/LICENSE)
+Copyright (c) 2025 MohammadAli Arjomand
