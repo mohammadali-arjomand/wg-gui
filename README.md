@@ -40,6 +40,7 @@ run-wg-gui
 1. Import a config using **Add Config** button.
 2. Select it from the list.
 3. Click **Connect** and enjoy!
+
 (See screenshot above)
 
 <!-- TODO: Add a GIF of usage -->
