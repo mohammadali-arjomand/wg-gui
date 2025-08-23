@@ -86,10 +86,12 @@ configFrm.pack()
 
 configs = listOfConfigs()
 configsCombo = ttk.Combobox(configFrm, values=configs)
+if len(configs) == 0:
+    configs.append("Add a config ...")
 configsCombo.set(configs[0])
 configsCombo.grid(row=0, column=0)
 
-newConfigBtn = tk.Button(configFrm, text="New Config", command=newConfig)
+newConfigBtn = tk.Button(configFrm, text="Add Config", command=newConfig)
 newConfigBtn.grid(row=0, column=1)
 
 tk.Label(win, text="").pack()
