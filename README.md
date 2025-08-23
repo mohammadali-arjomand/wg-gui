@@ -35,5 +35,11 @@ run-wg-gui
 # Usage
 Import a config using `Add Config` button and choose it. Then click on `Connect` button and enjoy! (See screenshot above)
 
+# Todo
+- Improving Multiconfig management and connections
+
+# Contribute
+Intrested in my project? [create an issue](http://github.com/mohammadali-arjomand/wg-gui/issues/new/) and share your thoughts!
+
 # License
 MIT License, Copyright (c) 2025 MohammadAli Arjomand [(more details)](https://github.com/mohammadali-arjomand/wg-gui/blob/main/LICENSE)
