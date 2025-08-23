@@ -29,4 +29,4 @@ run-wg-gui
 ```
 
 # License
-Copyright (c) 2025 MohammadAli Arjomand [more details](https://github.com/mohammadali-arjomand/wg-gui/blob/main/LICENSE)
+MIT License, Copyright (c) 2025 MohammadAli Arjomand [more details](https://github.com/mohammadali-arjomand/wg-gui/blob/main/LICENSE)
