@@ -1,6 +1,8 @@
 # WireGuard GUI
 There is a simple WireGuard GUI to manage wireguard configs in linux as client
 
+![ScreenShot](screenshot.png)
+
 # Requirements
 Install `wireguard` or `wireguard-tools` and `git` on your system
 ```bash
