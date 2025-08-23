@@ -21,7 +21,7 @@ sudo pacman -S wireguard-tools git python-tk
 
 > Make sure you have Python3 with Tkinter support installed
 
-[More installation instructions for WireGuard on ther distros](https://www.wireguard.com/install/)
+[More installation instructions for WireGuard on other distros](https://www.wireguard.com/install/)
 
 # Installation
 Clone project in your system. Then run `install.sh` script as root:
