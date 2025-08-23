@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wireguard-gui
+Comment=Manage Wireguard in a simple way!
+GenericName=wireguard-gui
+Exec=/usr/local/bin/run-wg-gui
+Icon=/.wg-gui/icon.png
+Type=Application
+Terminal=true
+StartupNotify=true
+Categories=GNOME;GTK;Utility;
+
