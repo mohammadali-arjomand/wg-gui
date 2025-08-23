@@ -53,4 +53,5 @@ Interested in this project? [create an issue](http://github.com/mohammadali-arjo
 
 # License
 Licensed under [MIT License](https://github.com/mohammadali-arjomand/wg-gui/blob/main/LICENSE)
+
 Copyright (c) 2025 MohammadAli Arjomand
