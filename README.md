@@ -41,9 +41,7 @@ run-wg-gui
 2. Select it from the list.
 3. Click **Connect** and enjoy!
 
-(See screenshot above)
-
-<!-- TODO: Add a GIF of usage -->
+![WireGuard Usage GIF](wg-gui.gif)
 
 # Todo
 - Improving Multi-config management and connections
@@ -52,6 +50,5 @@ run-wg-gui
 Interested in this project? [create an issue](http://github.com/mohammadali-arjomand/wg-gui/issues/new/) and share your thoughts!
 
 # License
-Licensed under [MIT License](https://github.com/mohammadali-arjomand/wg-gui/blob/main/LICENSE)
-
+Licensed under [MIT License](LICENSE).
 Copyright (c) 2025 MohammadAli Arjomand
